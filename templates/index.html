@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>SAVLE</title>
+</head>
+<body>
+
+<form class="input" method="post" action="{{ url_for('get_time') }}">
+    <p class="logo"> 사블 </p>
+    <input class="context" type="text" placeholder="" name="utime"/>
+    <p class="description">2020.02.28.24.00.00의 형식으로 입력해주세요</p>
+    <button class="start" type="submit">시작</button>
+</form>
+
+</body>
+</html>

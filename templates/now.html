@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/timer.js') }}"></script>
+    <title>SAVLE</title>
+</head>
+<body>
+<div class="timer">
+    <p class="time">LOADING...</p>
+    <script>new Timer("now", "time")</script>
+</div>
+</body>
+</html>

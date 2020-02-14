@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/clipboard.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/timer.js') }}"></script>
+    <title>SAVLE</title>
+</head>
+<body>
+<div class="timer">
+    <p class="time" id="p1">LOADING...</p>
+    <button class="copy"><img src="{{ url_for('static', filename='img/copy.svg') }}" alt=""> 복사</button>
+    <script>
+        new ClipboardJS('.copy', {
+            text: function () {
+                return document.location.href
+            }
+        });
+        new Timer("{{ ptime }}", "time")
+    </script>
+</div>
+</body>
+</html>
