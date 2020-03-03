@@ -1,6 +1,10 @@
-# 사블(SAVLE)
+# 사블(SAVLE) - Code
 
 정해진 시간까지 남은 시간을 알려주는 웹 사이트 **[사블](https://savle.uniii.org/)** 입니다. 
+
+**[코드](https://github.com/mansuiki/SAVLE/)**
+**[기획](https://github.com/ManziF9/SAVLE/)**
+
 
 ### 남은 시간을 알려주는 사이트
 
@@ -21,6 +25,3 @@
 ### SPEED RUN ?
 
 본 프로젝트는 스피드런으로 진행된 프로젝트로 총 2시간 동안 `기획`부터 `디자인` , `개발`이 이루어진 프로젝트 입니다. 무리하게 시간에 쫓겨 프로젝트를 진행하다 보면 그 시간안에 할 수 있는 최대치의 무언가를 만들어낼 수 있을 것 이라는 기대로 진행하게 되었습니다.
-
-
-`Readme.md From https://github.com/ManziF9/SAVLE`
