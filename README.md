@@ -1,6 +1,6 @@
 # 사블(SAVLE) - Code
 
-정해진 시간까지 남은 시간을 알려주는 웹 사이트 **[사블](https://savle.uniii.org/)** 입니다. 
+정해진 시간까지 남은 시간을 알려주는 웹 사이트 **[사블](https://project-savle.herokuapp.com/)** 입니다. 
 
 **[코드](https://github.com/mansuiki/SAVLE/)**
 
